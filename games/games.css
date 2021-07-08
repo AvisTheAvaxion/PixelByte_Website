@@ -128,7 +128,7 @@
   overflow: hidden; 
 }
 
-.astrobox button a, .ghostbox button a, .spacebox button a {
+.astrobox a button, .ghostbox a button, .spacebox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -180,7 +180,7 @@
   overflow: hidden; 
 }
 
-.hyperbox button a, .zrtsbox button a, .motdbox button a {
+.hyperbox a button, .zrtsbox a button, .motdbox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -195,7 +195,7 @@
   margin: 5%;
 }
 
-.csbutton button{
+.csbutton a button{
   width: 20%;
   height: 15%;
   padding: 20px;
@@ -206,7 +206,8 @@
   cursor: pointer;
 }
 
-.csbutton button a{
+
+.csbutton a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;

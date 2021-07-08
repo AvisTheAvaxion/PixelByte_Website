@@ -124,7 +124,7 @@
   overflow: hidden;
 }
 
-.gamebox button a{
+.gamebox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -163,7 +163,7 @@
   overflow: hidden;
 }
 
-.teambox button a{
+.teambox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -213,7 +213,7 @@
   overflow: hidden;
 }
 
-.blogbox button a{
+.blogbox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -252,18 +252,12 @@
   overflow: hidden;
 }
 
-.discbox button a{
+.discbox a button{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 130%;
 }
-
-
-
-
-
-
 
 .footer{
   width: 100%;
