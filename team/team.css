@@ -189,6 +189,109 @@
   line-height: 0;
 }
 
+.row_three{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.indombox, .rapbox, .tglbox {
+  margin: 20px;
+  width: 80%;
+  height: 95%;
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.indombox h1, .rapbox h1, .tglbox h1 {
+  padding: 20px
+}
+
+.indombox img, .rapbox img, .tglbox img{
+  width: 80%;
+}
+
+.indombox p, .rapbox p, .tglbox p {
+  padding: 20px;
+}
+
+.indombox button, .rapbox button, .tglbox button{
+  width: 80%;
+  height: 10%;
+  padding: 20px;
+  margin: 20px 10px;
+  font-weight: bold;
+  border: 2px solid red;
+  background: red;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.indombox a button, .rapbox a button, .tglbox a button{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 130%;
+  height: 0;
+  line-height: 0;
+}
+
+.row_four{
+  padding-top: 10px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stellabox, .tcabox, .dtmbox {
+  margin: 20px;
+  width: 80%;
+  height: 95%;
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.stellabox h1, .tcabox h1, .dtmbox h1 {
+  padding: 20px
+}
+
+.stellabox img, .tcabox img, .dtmbox img{
+  width: 80%;
+}
+
+.stellabox p, .tcabox p, .dtmbox p {
+  padding: 20px;
+}
+
+.stellabox button, .tcabox button, .dtmbox button{
+  width: 80%;
+  height: 10%;
+  padding: 20px;
+  margin: 20px 10px;
+  font-weight: bold;
+  border: 2px solid red;
+  background: red;
+  cursor: pointer;
+  overflow: hidden; 
+}
+
+.stellabox a button, .tcabox a button, .dtmbox a button{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 130%;
+  height: 0;
+  line-height: 0;
+}
+
 .csbutton{
   padding-top: 10px;
   display: flex;
