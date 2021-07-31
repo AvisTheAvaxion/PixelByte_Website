@@ -61,7 +61,7 @@
 .banner{
   width: 100%;
   height: 530px;
-  background-image: linear-gradient(rgba(110, 102, 102, 0.178), rgba(109, 102, 102, 0.178)), url(../assets/logo.png);
+  background-image: linear-gradient(rgba(110, 102, 102, 0.178), rgba(109, 102, 102, 0.178)), url(../../../assets/logo.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -99,20 +99,26 @@
   background-color: black;
   border: 5px solid red;
   border-radius: 10px;
-  text-align: center;
   color: white;
 }
 
 .biobox h1{
-  padding: 20px
+  padding: 20px;
+  text-align: right;
+}
+
+.biobox img{
+  padding: 20px;
+  width: 30%;
 }
 
 .biobox p{
   padding: 20px;
+  text-align: right;
 }
 
 .biobox button{
-  width: 20%;
+  width: 40%;
   height: 10%;
   padding: 20px;
   margin: 20px 10px;
